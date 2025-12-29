@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(npx tsc:*)",
+      "Bash(curl:*)",
+      "Bash(node -e:*)",
+      "Bash(node src/scripts/seedProducts.js:*)",
+      "Bash(node:*)",
+      "Bash(ls:*)",
+      "Bash(grep:*)",
+      "Bash(npm install:*)"
+    ]
+  }
+}

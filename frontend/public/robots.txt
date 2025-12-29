@@ -1,0 +1,28 @@
+# robots.txt for minhanh.store
+# https://minhanh.store
+
+User-agent: *
+Allow: /
+
+# Disallow admin and private pages
+Disallow: /admin
+Disallow: /admin/*
+Disallow: /api/*
+Disallow: /checkout
+Disallow: /orders
+
+# Allow search engines to crawl important pages
+Allow: /products
+Allow: /products/*
+Allow: /mam-qua
+Allow: /hoa-cuoi
+Allow: /cong-cuoi
+Allow: /hoa-tuoi
+Allow: /about
+Allow: /contact
+
+# Sitemap location
+Sitemap: https://minhanh.store/sitemap.xml
+
+# Crawl-delay for politeness
+Crawl-delay: 1
