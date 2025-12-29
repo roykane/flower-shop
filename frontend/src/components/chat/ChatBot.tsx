@@ -23,18 +23,17 @@ interface Message {
   isRead?: boolean;
 }
 
-interface QuickReply {
-  text: string;
-  icon: React.ReactNode;
-}
-
-// Quick replies
-const QUICK_REPLIES: QuickReply[] = [
-  { text: 'Xem sản phẩm', icon: <HiOutlineShoppingBag className="w-4 h-4" /> },
-  { text: 'Hoa cưới', icon: <HiOutlineHeart className="w-4 h-4" /> },
-  { text: 'Liên hệ', icon: <HiOutlinePhone className="w-4 h-4" /> },
-  { text: 'Giao hàng', icon: <HiOutlineQuestionMarkCircle className="w-4 h-4" /> },
-];
+// Quick replies - currently disabled but kept for future use
+// interface QuickReply {
+//   text: string;
+//   icon: React.ReactNode;
+// }
+// const QUICK_REPLIES: QuickReply[] = [
+//   { text: 'Xem sản phẩm', icon: <HiOutlineShoppingBag className="w-4 h-4" /> },
+//   { text: 'Hoa cưới', icon: <HiOutlineHeart className="w-4 h-4" /> },
+//   { text: 'Liên hệ', icon: <HiOutlinePhone className="w-4 h-4" /> },
+//   { text: 'Giao hàng', icon: <HiOutlineQuestionMarkCircle className="w-4 h-4" /> },
+// ];
 
 export default function ChatBot() {
   const [isOpen, setIsOpen] = useState(false);
@@ -54,7 +53,7 @@ export default function ChatBot() {
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const socketRef = useRef<Socket | null>(null);
-  const typingTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const typingTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   // Scroll to bottom
   useEffect(() => {
@@ -235,9 +234,10 @@ Chúng tôi sẵn sàng hỗ trợ bạn!`,
     sendMessage(inputValue);
   };
 
-  const handleQuickReply = (reply: string) => {
-    sendMessage(reply);
-  };
+  // Quick reply handler - currently disabled but kept for future use
+  // const handleQuickReply = (reply: string) => {
+  //   sendMessage(reply);
+  // };
 
   const handleRatingSubmit = () => {
     if (!socketRef.current || rating === 0) return;

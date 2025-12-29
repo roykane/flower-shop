@@ -5,10 +5,8 @@ import {
   HiOutlinePhone,
   HiPaperAirplane,
   HiOutlineSparkles,
-  HiOutlineX,
   HiOutlineCheckCircle,
   HiOutlineExclamationCircle,
-  HiOutlineRefresh,
 } from 'react-icons/hi';
 import { connectAdminSocket, disconnectAdminSocket } from '@/utils/socket';
 import { Socket } from 'socket.io-client';
@@ -70,7 +68,7 @@ export default function AdminChats() {
 
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const socketRef = useRef<Socket | null>(null);
-  const typingTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const typingTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   // Scroll to bottom
   useEffect(() => {
@@ -212,11 +210,11 @@ export default function AdminChats() {
       );
     });
 
-    socket.on('admin:takeOverSuccess', ({ chatId }: { chatId: string }) => {
+    socket.on('admin:takeOverSuccess', () => {
       toast.success('Đã tiếp quản cuộc trò chuyện');
     });
 
-    socket.on('admin:releaseSuccess', ({ chatId }: { chatId: string }) => {
+    socket.on('admin:releaseSuccess', () => {
       toast.success('Đã chuyển về AI');
     });
 
