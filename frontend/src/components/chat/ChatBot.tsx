@@ -4,10 +4,6 @@ import {
   HiX,
   HiPaperAirplane,
   HiOutlineSparkles,
-  HiOutlinePhone,
-  HiOutlineShoppingBag,
-  HiOutlineHeart,
-  HiOutlineQuestionMarkCircle,
   HiOutlineUser,
   HiStar,
 } from 'react-icons/hi';
