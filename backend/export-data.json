@@ -1,0 +1,1840 @@
+{
+  "products": [
+    {
+      "_id": "693d6126e60fcbfb9faa6563",
+      "name": "Mâm Quả Cưới Rồng Phượng",
+      "slug": "mam-qua-cuoi-rong-phuong",
+      "description": "Bộ mâm quả 6 tráp truyền thống với trang trí rồng phượng vàng kim, trái cây tươi ngon, bánh kẹo cao cấp. Phù hợp cho lễ ăn hỏi sang trọng, thể hiện sự trân trọng và lòng thành kính.",
+      "price": 3500000,
+      "images": [
+        "/uploads/592204609_1530122611953379_2439974153919650602_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655d",
+      "stock": 10,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-13T12:50:46.592Z",
+      "updatedAt": "2025-12-13T12:50:46.592Z"
+    },
+    {
+      "_id": "693d6126e60fcbfb9faa6564",
+      "name": "Mâm Quả Cưới Truyền Thống",
+      "slug": "mam-qua-cuoi-truyen-thong",
+      "description": "Bộ mâm quả 5 tráp với hoa đỏ rực rỡ, trái cây tươi, quạt giấy, rượu vang. Thiết kế cổ điển, đậm nét văn hóa Việt Nam truyền thống.",
+      "price": 2800000,
+      "images": [
+        "/uploads/590894285_1528312828801024_6091125474842967440_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655d",
+      "stock": 10,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-13T12:50:46.593Z",
+      "updatedAt": "2025-12-13T12:50:46.593Z"
+    },
+    {
+      "_id": "693d6126e60fcbfb9faa6565",
+      "name": "Tráp Trầu Cau Lá Trầu",
+      "slug": "trap-trau-cau-la-trau",
+      "description": "Tráp trầu cau trang trí hoa hồng trắng thanh khiết, lá trầu xanh mướt tươi mát. Biểu tượng của tình yêu bền vững và hạnh phúc lâu dài.",
+      "price": 800000,
+      "images": [
+        "/uploads/596297133_1538325617799745_7232628115908298809_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655d",
+      "stock": 15,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-13T12:50:46.593Z",
+      "updatedAt": "2025-12-13T12:50:46.593Z"
+    },
+    {
+      "_id": "693d6126e60fcbfb9faa6566",
+      "name": "Tráp Rượu Hoa Hồng",
+      "slug": "trap-ruou-hoa-hong",
+      "description": "Tráp rượu vang trang trí hoa hồng kem, cúc xanh tươi, quạt giấy truyền thống. Sang trọng, tinh tế và đầy ý nghĩa.",
+      "price": 1200000,
+      "images": [
+        "/uploads/595272272_1538325467799760_6104288767912460173_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655d",
+      "stock": 12,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-13T12:50:46.593Z",
+      "updatedAt": "2025-12-13T12:50:46.593Z"
+    },
+    {
+      "_id": "693d6126e60fcbfb9faa6567",
+      "name": "Tráp Bánh Kẹo Hoa Tươi",
+      "slug": "trap-banh-keo-hoa-tuoi",
+      "description": "Tráp bánh kẹo cao cấp nhập khẩu kết hợp hoa hồng tươi và baby breath. Ngọt ngào như tình yêu đôi lứa.",
+      "price": 1000000,
+      "images": [
+        "/uploads/596337368_1538325584466415_2411576524127910087_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655d",
+      "stock": 15,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-13T12:50:46.593Z",
+      "updatedAt": "2025-12-13T12:50:46.593Z"
+    },
+    {
+      "_id": "693d6126e60fcbfb9faa6568",
+      "name": "Tráp Yến Sào Hoa Hồng",
+      "slug": "trap-yen-sao-hoa-hong",
+      "description": "Tráp yến sào cao cấp trang trí hoa hồng kem nhẹ nhàng, cúc xanh tươi mát. Thể hiện sự quý mến và chăm sóc sức khỏe.",
+      "price": 2500000,
+      "images": [
+        "/uploads/597384048_1538325561133084_4572717595111049859_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655d",
+      "stock": 8,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-13T12:50:46.593Z",
+      "updatedAt": "2025-12-13T12:50:46.593Z"
+    },
+    {
+      "_id": "693d6126e60fcbfb9faa6569",
+      "name": "Tráp Bia Tiger Đám Hỏi",
+      "slug": "trap-bia-tiger-dam-hoi",
+      "description": "Tráp bia Tiger xếp tháp độc đáo trang trí hoa hồng, cúc xanh. Phong cách hiện đại, trẻ trung cho đám hỏi.",
+      "price": 900000,
+      "images": [
+        "/uploads/597392415_1538325547799752_9100034466391364276_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655d",
+      "stock": 10,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-13T12:50:46.593Z",
+      "updatedAt": "2025-12-13T12:50:46.593Z"
+    },
+    {
+      "_id": "693d6126e60fcbfb9faa656a",
+      "name": "Tráp Bánh LU Hoa Tươi",
+      "slug": "trap-banh-lu-hoa-tuoi",
+      "description": "Tráp bánh LU Pháp cao cấp với hoa hồng trắng thanh khiết, baby breath tinh tế. Đẳng cấp và sang trọng.",
+      "price": 1100000,
+      "images": [
+        "/uploads/597899695_1538325494466424_7865535260320421510_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655d",
+      "stock": 12,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-13T12:50:46.593Z",
+      "updatedAt": "2025-12-13T12:50:46.593Z"
+    },
+    {
+      "_id": "693d6126e60fcbfb9faa656b",
+      "name": "Bộ Tráp Cưới 5 Lễ",
+      "slug": "bo-trap-cuoi-5-le",
+      "description": "Bộ 5 tráp đầy đủ cho lễ ăn hỏi: trầu cau, trái cây, bánh kẹo, rượu, yến sào. Trọn vẹn và chu đáo cho ngày vui trọng đại.",
+      "price": 4500000,
+      "images": [
+        "/uploads/599128253_1538325364466437_4194744862644637151_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655d",
+      "stock": 5,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-13T12:50:46.593Z",
+      "updatedAt": "2025-12-13T12:50:46.593Z"
+    },
+    {
+      "_id": "693d6126e60fcbfb9faa656c",
+      "name": "Giỏ Quà Tết Đỏ Phú Quý",
+      "slug": "gio-qua-tet-do-phu-quy",
+      "description": "Giỏ quà Tết màu đỏ truyền thống với bánh kẹo nhập khẩu, chocolate Ferrero Rocher, mèo thần tài may mắn. Mang đến phú quý cả năm.",
+      "price": 1500000,
+      "images": [
+        "/uploads/594275383_1534065998225707_1787392301771161655_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655e",
+      "stock": 20,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-13T12:50:46.593Z",
+      "updatedAt": "2025-12-13T12:50:46.593Z"
+    },
+    {
+      "_id": "693d6126e60fcbfb9faa656d",
+      "name": "Giỏ Quà Tết Xanh Thịnh Vượng",
+      "slug": "gio-qua-tet-xanh-thinh-vuong",
+      "description": "Giỏ quà Tết tông xanh sang trọng với rượu vang 1989, chocolate cao cấp, hoa lan trắng. Đẳng cấp và khác biệt.",
+      "price": 1800000,
+      "images": [
+        "/uploads/593605143_1534065718225735_3470327571405371087_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655e",
+      "stock": 15,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-13T12:50:46.593Z",
+      "updatedAt": "2025-12-13T12:50:46.593Z"
+    },
+    {
+      "_id": "693d6126e60fcbfb9faa656e",
+      "name": "Giỏ Quà Tết Vàng Phát Tài",
+      "slug": "gio-qua-tet-vang-phat-tai",
+      "description": "Giỏ quà Tết tông vàng rực rỡ với bánh Custas, trà đào, snack nhập khẩu. Tươi sáng và may mắn đón xuân.",
+      "price": 1200000,
+      "images": [
+        "/uploads/593602020_1534065894892384_3856845494222715678_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655e",
+      "stock": 20,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-13T12:50:46.593Z",
+      "updatedAt": "2025-12-13T12:50:46.593Z"
+    },
+    {
+      "_id": "693d6126e60fcbfb9faa656f",
+      "name": "Giỏ Quà Tết Hồng Phúc",
+      "slug": "gio-qua-tet-hong-phuc",
+      "description": "Giỏ quà Tết đỏ vàng rực rỡ với bánh LU, Ferrero Rocher, quạt giấy, mèo thần tài. Đậm đà hương vị Tết cổ truyền.",
+      "price": 1600000,
+      "images": [
+        "/uploads/595600038_1534065814892392_3038998564339100036_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655e",
+      "stock": 18,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-13T12:50:46.593Z",
+      "updatedAt": "2025-12-13T12:50:46.593Z"
+    },
+    {
+      "_id": "693d6126e60fcbfb9faa6570",
+      "name": "Giỏ Quà Tết Xanh Dương Premium",
+      "slug": "gio-qua-tet-xanh-duong-premium",
+      "description": "Giỏ quà Tết xanh dương cao cấp với rượu vang, yến sào, cafe hảo hạng. Sang trọng và đẳng cấp.",
+      "price": 2000000,
+      "images": [
+        "/uploads/594964224_1534065944892379_6440578156398239641_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655e",
+      "stock": 10,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-13T12:50:46.593Z",
+      "updatedAt": "2025-12-13T12:50:46.593Z"
+    },
+    {
+      "_id": "693d6126e60fcbfb9faa6571",
+      "name": "Giỏ Quà Tết Biển Xanh",
+      "slug": "gio-qua-tet-bien-xanh",
+      "description": "Giỏ quà Tết tông xanh biển tươi mát với rượu vang 1989, Ferrero Rocher, cafe nhập khẩu. Hiện đại và tinh tế.",
+      "price": 1700000,
+      "images": [
+        "/uploads/595551826_1534065634892410_259029151425246890_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655e",
+      "stock": 15,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-13T12:50:46.593Z",
+      "updatedAt": "2025-12-13T12:50:46.593Z"
+    },
+    {
+      "_id": "693d6126e60fcbfb9faa6572",
+      "name": "Giỏ Trái Cây Khai Trương",
+      "slug": "gio-trai-cay-khai-truong",
+      "description": "Giỏ trái cây tươi ngon với cam, nho, táo nhập khẩu, trang trí nơ vàng sang trọng. Chúc mừng khai trương, tân gia thịnh vượng.",
+      "price": 800000,
+      "images": [
+        "/uploads/591911033_1529664178665889_1751146594778392361_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655f",
+      "stock": 25,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-13T12:50:46.593Z",
+      "updatedAt": "2025-12-13T12:50:46.593Z"
+    },
+    {
+      "_id": "693d6126e60fcbfb9faa6573",
+      "name": "Giỏ Trái Cây Hoa Hồng",
+      "slug": "gio-trai-cay-hoa-hong",
+      "description": "Giỏ trái cây tươi kết hợp hoa hồng cam rực rỡ, cúc trắng tinh khôi. Thích hợp thăm hỏi, chúc mừng sinh nhật.",
+      "price": 1000000,
+      "images": [
+        "/uploads/596785703_1535219624777011_1657063163776478543_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655f",
+      "stock": 20,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-13T12:50:46.593Z",
+      "updatedAt": "2025-12-13T12:50:46.593Z"
+    },
+    {
+      "_id": "693d6126e60fcbfb9faa6574",
+      "name": "Tháp Trái Cây Hoa Tươi",
+      "slug": "thap-trai-cay-hoa-tuoi",
+      "description": "Tháp trái cây cao cấp với nho đỏ, cam vàng, táo xanh đỏ, trang trí hoa hồng trắng. Ấn tượng và sang trọng.",
+      "price": 1500000,
+      "images": [
+        "/uploads/597323554_1538325517799755_8209913830030218240_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655f",
+      "stock": 15,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-13T12:50:46.593Z",
+      "updatedAt": "2025-12-13T12:50:46.593Z"
+    },
+    {
+      "_id": "693d6126e60fcbfb9faa6575",
+      "name": "Hoa Cưới Lan Hồ Điệp",
+      "slug": "hoa-cuoi-lan-ho-diep",
+      "description": "Bó hoa cầm tay cô dâu với lan hồ điệp trắng tinh khôi, calla lily thanh lịch. Vẻ đẹp thuần khiết cho ngày trọng đại.",
+      "price": 600000,
+      "images": [
+        "/uploads/595151883_1536096181356022_3910860693793482297_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa6560",
+      "stock": 20,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-13T12:50:46.593Z",
+      "updatedAt": "2025-12-13T12:50:46.593Z"
+    },
+    {
+      "_id": "693d6126e60fcbfb9faa6576",
+      "name": "Giỏ Quà Bánh Kẹo Tết",
+      "slug": "gio-qua-banh-keo-tet",
+      "description": "Giỏ bánh kẹo nhập khẩu cao cấp với nơ đỏ trang trí sang trọng. Phù hợp biếu tặng đối tác, người thân dịp lễ Tết.",
+      "price": 900000,
+      "images": [
+        "/uploads/591936444_1534065538225753_1260015567398249966_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa6561",
+      "stock": 25,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-13T12:50:46.593Z",
+      "updatedAt": "2025-12-13T12:50:46.593Z"
+    },
+    {
+      "_id": "693d6126e60fcbfb9faa6577",
+      "name": "Giỏ Quà Yến Sào Hoa Hồng",
+      "slug": "gio-qua-yen-sao-hoa-hong",
+      "description": "Giỏ yến sào cao cấp trang trí hoa hồng kem nhẹ nhàng, cúc xanh tươi mát. Quà tặng ý nghĩa cho sức khỏe người thân.",
+      "price": 1300000,
+      "images": [
+        "/uploads/595155000_1538325424466431_8982145334792521892_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa6561",
+      "stock": 15,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-13T12:50:46.593Z",
+      "updatedAt": "2025-12-13T12:50:46.593Z"
+    },
+    {
+      "_id": "69401c2aecf92bb88ea9030b",
+      "name": "Mâm Quả Cưới Hồng Phấn",
+      "description": "Bộ mâm quả cưới tông hồng phấn dịu dàng với hoa hồng, đào tiên, bánh kẹo cao cấp. Phong cách nhẹ nhàng, lãng mạn cho cô dâu hiện đại.",
+      "price": 3200000,
+      "images": [
+        "/uploads/541703309_1443632970602344_717766491493782017_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655d",
+      "stock": 8,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": true,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:14.939Z",
+      "updatedAt": "2025-12-15T14:33:14.939Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d23",
+      "name": "Tráp Quả Đào Tiên",
+      "slug": "trap-qua-dao-tien",
+      "description": "Tráp đào tiên tươi với hoa hồng đỏ rực rỡ, biểu tượng của sự trường thọ và hạnh phúc viên mãn.",
+      "price": 950000,
+      "images": [
+        "/uploads/541781256_1448521966780111_7693291922543164741_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655d",
+      "stock": 15,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.436Z",
+      "updatedAt": "2025-12-15T14:33:34.436Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d24",
+      "name": "Tráp Trái Cây Cưới Sang Trọng",
+      "slug": "trap-trai-cay-cuoi-sang-trong",
+      "description": "Tráp trái cây nhập khẩu với nho xanh, cam, táo, trang trí hoa hồng kem. Tươi ngon và đẹp mắt.",
+      "price": 1100000,
+      "images": [
+        "/uploads/542176223_1448522150113426_8601746506084542587_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655d",
+      "stock": 12,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.436Z",
+      "updatedAt": "2025-12-15T14:33:34.436Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d25",
+      "name": "Mâm Quả 7 Tráp Đỏ Vàng",
+      "slug": "mam-qua-7-trap-do-vang",
+      "description": "Bộ 7 tráp đầy đủ tông đỏ vàng truyền thống: trầu cau, trái cây, bánh kem, rượu, yến, bánh kẹo, hạt. Hoàn hảo cho lễ ăn hỏi.",
+      "price": 5500000,
+      "images": [
+        "/uploads/544739828_1448521923446782_2542742596705698559_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655d",
+      "stock": 5,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": true,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.436Z",
+      "updatedAt": "2025-12-15T14:33:34.436Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d26",
+      "name": "Tráp Cau Lá Trầu Hoa Hồng",
+      "slug": "trap-cau-la-trau-hoa-hong",
+      "description": "Tráp cau lá trầu truyền thống trang trí hoa hồng đỏ thắm, quạt giấy. Ý nghĩa thiêng liêng cho lễ dạm ngõ.",
+      "price": 850000,
+      "images": [
+        "/uploads/550205684_1464102555222052_713091098034298711_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655d",
+      "stock": 20,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.436Z",
+      "updatedAt": "2025-12-15T14:33:34.436Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d27",
+      "name": "Tráp Hạt Dinh Dưỡng Hoa Tươi",
+      "slug": "trap-hat-dinh-duong-hoa-tuoi",
+      "description": "Tráp hạt điều, hạnh nhân, óc chó cao cấp trang trí hoa cúc vàng rực rỡ. Ý nghĩa sức khỏe và thịnh vượng.",
+      "price": 1300000,
+      "images": [
+        "/uploads/550452481_1465247158440925_7421006913136331217_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655d",
+      "stock": 10,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.436Z",
+      "updatedAt": "2025-12-15T14:33:34.436Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d28",
+      "name": "Tráp Bánh Pía Hoa Lan",
+      "slug": "trap-banh-pia-hoa-lan",
+      "description": "Tráp bánh pía Sóc Trăng trang trí hoa lan trắng thanh lịch. Hương vị truyền thống, sang trọng.",
+      "price": 900000,
+      "images": [
+        "/uploads/552944322_1465247211774253_2203663870097051403_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655d",
+      "stock": 15,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.436Z",
+      "updatedAt": "2025-12-15T14:33:34.436Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d29",
+      "name": "Mâm Quả Cưới Đỏ Truyền Thống",
+      "slug": "mam-qua-cuoi-do-truyen-thong",
+      "description": "Bộ mâm quả tông đỏ truyền thống với quạt giấy, hoa hồng đỏ, trái cây tươi. Đậm nét văn hóa Việt.",
+      "price": 2900000,
+      "images": [
+        "/uploads/555602985_1470021794630128_144387199201939727_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655d",
+      "stock": 8,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.436Z",
+      "updatedAt": "2025-12-15T14:33:34.436Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d2a",
+      "name": "Tráp Rượu Vang Hoa Hồng Kem",
+      "slug": "trap-ruou-vang-hoa-hong-kem",
+      "description": "Tráp rượu vang đỏ cao cấp trang trí hoa hồng kem, baby breath. Sang trọng cho lễ ăn hỏi.",
+      "price": 1400000,
+      "images": [
+        "/uploads/555939124_1470021737963467_4539579315506515149_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655d",
+      "stock": 12,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.436Z",
+      "updatedAt": "2025-12-15T14:33:34.436Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d2b",
+      "name": "Tráp Socola Ferrero Rocher",
+      "slug": "trap-socola-ferrero-rocher",
+      "description": "Tráp socola Ferrero Rocher cao cấp với hoa hồng đỏ và lá xanh. Ngọt ngào như tình yêu.",
+      "price": 1200000,
+      "images": [
+        "/uploads/556039770_1471854437780197_4495951348044844684_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655d",
+      "stock": 15,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.436Z",
+      "updatedAt": "2025-12-15T14:33:34.436Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d2c",
+      "name": "Tráp Bánh Custas Hoa Tươi",
+      "slug": "trap-banh-custas-hoa-tuoi",
+      "description": "Tráp bánh Custas nhập khẩu Hàn Quốc trang trí hoa hồng kem và cúc xanh. Hiện đại và tinh tế.",
+      "price": 1000000,
+      "images": [
+        "/uploads/556110410_1471854507780190_2630854857172059235_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655d",
+      "stock": 18,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.436Z",
+      "updatedAt": "2025-12-15T14:33:34.436Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d2d",
+      "name": "Mâm Quả 5 Tráp Hồng Đỏ",
+      "slug": "mam-qua-5-trap-hong-do",
+      "description": "Bộ 5 tráp tông hồng đỏ rực rỡ với hoa hồng, quạt giấy, ruy băng. Đẹp và đầy đủ.",
+      "price": 4200000,
+      "images": [
+        "/uploads/557588152_1476197400679234_7799483236676718564_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655d",
+      "stock": 6,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": true,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.436Z",
+      "updatedAt": "2025-12-15T14:33:34.436Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d2e",
+      "name": "Tráp Trà Bánh Hoa Cúc",
+      "slug": "trap-tra-banh-hoa-cuc",
+      "description": "Tráp trà Ô Long cao cấp kết hợp bánh quy, trang trí hoa cúc vàng. Thanh nhã và ý nghĩa.",
+      "price": 950000,
+      "images": [
+        "/uploads/557589621_1471854634446844_7297468980356137961_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655d",
+      "stock": 14,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.436Z",
+      "updatedAt": "2025-12-15T14:33:34.436Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d2f",
+      "name": "Tráp Mứt Hạt Hoa Hồng",
+      "slug": "trap-mut-hat-hoa-hong",
+      "description": "Tráp mứt dừa, hạt sen, kẹo gừng với hoa hồng đỏ. Hương vị Tết truyền thống cho lễ cưới.",
+      "price": 800000,
+      "images": [
+        "/uploads/557596601_1471854361113538_6348888957440348922_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655d",
+      "stock": 20,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.437Z",
+      "updatedAt": "2025-12-15T14:33:34.437Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d30",
+      "name": "Tráp Yến Sào Đỏ Sang Trọng",
+      "slug": "trap-yen-sao-do-sang-trong",
+      "description": "Tráp yến sào nguyên chất trang trí hoa hồng đỏ thắm và lá xanh. Quý phái và đẳng cấp.",
+      "price": 2800000,
+      "images": [
+        "/uploads/557605431_1478135233818784_1341623777674993826_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655d",
+      "stock": 6,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.437Z",
+      "updatedAt": "2025-12-15T14:33:34.437Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d31",
+      "name": "Mâm Quả Cưới Tông Cam",
+      "slug": "mam-qua-cuoi-tong-cam",
+      "description": "Bộ mâm quả tông cam rực rỡ với hoa hồng cam, cúc vàng. Tươi sáng và vui tươi.",
+      "price": 3100000,
+      "images": [
+        "/uploads/557619790_1476197440679230_8804281485544803161_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655d",
+      "stock": 7,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.437Z",
+      "updatedAt": "2025-12-15T14:33:34.437Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d32",
+      "name": "Tráp Bánh Trung Thu Hoa Lan",
+      "slug": "trap-banh-trung-thu-hoa-lan",
+      "description": "Tráp bánh trung thu cao cấp trang trí hoa lan trắng. Phù hợp lễ cưới mùa thu.",
+      "price": 1100000,
+      "images": [
+        "/uploads/557622213_1476197367345904_4968147972822363238_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655d",
+      "stock": 10,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.437Z",
+      "updatedAt": "2025-12-15T14:33:34.437Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d33",
+      "name": "Tráp Kẹo Hạt Hoa Cúc Vàng",
+      "slug": "trap-keo-hat-hoa-cuc-vang",
+      "description": "Tráp kẹo sữa, hạt điều rang muối trang trí hoa cúc vàng rực rỡ. Ngọt ngào và may mắn.",
+      "price": 750000,
+      "images": [
+        "/uploads/557629742_1471854721113502_2710668016265258457_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655d",
+      "stock": 25,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.437Z",
+      "updatedAt": "2025-12-15T14:33:34.437Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d34",
+      "name": "Mâm Quả 6 Tráp Truyền Thống",
+      "slug": "mam-qua-6-trap-truyen-thong",
+      "description": "Bộ 6 tráp đầy đủ với hoa hồng đỏ, quạt giấy, ruy băng vàng. Trọn vẹn cho lễ ăn hỏi.",
+      "price": 4800000,
+      "images": [
+        "/uploads/557633977_1476197490679225_513841277764041860_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655d",
+      "stock": 5,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": true,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.437Z",
+      "updatedAt": "2025-12-15T14:33:34.437Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d35",
+      "name": "Tráp Nước Yến Hoa Hồng Trắng",
+      "slug": "trap-nuoc-yen-hoa-hong-trang",
+      "description": "Tráp nước yến Bird nest cao cấp trang trí hoa hồng trắng tinh khôi. Thanh lịch và quý phái.",
+      "price": 1600000,
+      "images": [
+        "/uploads/557634948_1476197244012583_5341320824011568356_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655d",
+      "stock": 10,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.437Z",
+      "updatedAt": "2025-12-15T14:33:34.437Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d36",
+      "name": "Giỏ Quà Tết Sen Hồng",
+      "slug": "gio-qua-tet-sen-hong",
+      "description": "Giỏ quà Tết với hạt sen, bánh kẹo, hoa sen hồng trang trí. Thanh nhã và ý nghĩa.",
+      "price": 1400000,
+      "images": [
+        "/uploads/561612516_1489636136002027_7119799747542459277_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655e",
+      "stock": 15,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.437Z",
+      "updatedAt": "2025-12-15T14:33:34.437Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d37",
+      "name": "Giỏ Quà Tết Rượu Vang Đỏ",
+      "slug": "gio-qua-tet-ruou-vang-do",
+      "description": "Giỏ quà sang trọng với rượu vang đỏ nhập khẩu, chocolate, hoa hồng đỏ. Đẳng cấp doanh nhân.",
+      "price": 2200000,
+      "images": [
+        "/uploads/565134899_1491327082499599_9208041130552965083_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655e",
+      "stock": 12,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": true,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.437Z",
+      "updatedAt": "2025-12-15T14:33:34.437Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d38",
+      "name": "Giỏ Quà Tết Xanh Lá",
+      "slug": "gio-qua-tet-xanh-la",
+      "description": "Giỏ quà Tết tông xanh lá tươi mát với bánh kẹo, trà, mứt. Phong cách độc đáo.",
+      "price": 1300000,
+      "images": [
+        "/uploads/565215782_1491327365832904_2526518746414819336_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655e",
+      "stock": 18,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.437Z",
+      "updatedAt": "2025-12-15T14:33:34.437Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d39",
+      "name": "Giỏ Quà Tết Hoa Đào",
+      "slug": "gio-qua-tet-hoa-dao",
+      "description": "Giỏ quà Tết với cành đào hồng, bánh kẹo, rượu vang. Đậm hương xuân miền Bắc.",
+      "price": 1900000,
+      "images": [
+        "/uploads/571346092_1503823294583311_150108988820495414_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655e",
+      "stock": 10,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": true,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.437Z",
+      "updatedAt": "2025-12-15T14:33:34.437Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d3a",
+      "name": "Giỏ Quà Tết Vàng Óng",
+      "slug": "gio-qua-tet-vang-ong",
+      "description": "Giỏ quà Tết tông vàng sang trọng với bánh nhập khẩu, mèo thần tài, hoa cúc. Phú quý cả năm.",
+      "price": 1600000,
+      "images": [
+        "/uploads/573353490_1503823354583305_6300703159443332208_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655e",
+      "stock": 15,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.437Z",
+      "updatedAt": "2025-12-15T14:33:34.437Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d3b",
+      "name": "Giỏ Quà Tết Đỏ May Mắn",
+      "slug": "gio-qua-tet-do-may-man",
+      "description": "Giỏ quà Tết đỏ rực với Ferrero Rocher, bánh LU, mèo vàng may mắn. Đón xuân tài lộc.",
+      "price": 1500000,
+      "images": [
+        "/uploads/573558265_1505931747705799_6694391209471048504_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655e",
+      "stock": 20,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.437Z",
+      "updatedAt": "2025-12-15T14:33:34.437Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d3c",
+      "name": "Giỏ Quà Tết Hồng Phấn",
+      "slug": "gio-qua-tet-hong-phan",
+      "description": "Giỏ quà Tết tông hồng phấn dịu dàng với bánh kẹo, hoa hồng. Nhẹ nhàng nữ tính.",
+      "price": 1250000,
+      "images": [
+        "/uploads/577010021_1513195680312739_5262725022844784668_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655e",
+      "stock": 18,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.437Z",
+      "updatedAt": "2025-12-15T14:33:34.437Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d3d",
+      "name": "Giỏ Quà Tết Xanh Ngọc",
+      "slug": "gio-qua-tet-xanh-ngoc",
+      "description": "Giỏ quà Tết xanh ngọc sang trọng với rượu vang, chocolate, hoa lan. Đẳng cấp và tinh tế.",
+      "price": 2000000,
+      "images": [
+        "/uploads/579600681_1513195743646066_7812865485554022215_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655e",
+      "stock": 10,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.437Z",
+      "updatedAt": "2025-12-15T14:33:34.437Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d3e",
+      "name": "Giỏ Quà Tết Cam Vàng",
+      "slug": "gio-qua-tet-cam-vang",
+      "description": "Giỏ quà Tết tông cam vàng rực rỡ với bánh kẹo nhập khẩu, hoa cúc. Tươi sáng đón xuân.",
+      "price": 1350000,
+      "images": [
+        "/uploads/581068967_1513195793646061_4549014658772943663_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655e",
+      "stock": 16,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.437Z",
+      "updatedAt": "2025-12-15T14:33:34.437Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d3f",
+      "name": "Giỏ Quà Tết Tím Sang Trọng",
+      "slug": "gio-qua-tet-tim-sang-trong",
+      "description": "Giỏ quà Tết tông tím đặc biệt với rượu vang, socola, hoa lan tím. Khác biệt và ấn tượng.",
+      "price": 1800000,
+      "images": [
+        "/uploads/582217925_1513195863646054_3884211807834085273_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655e",
+      "stock": 12,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.437Z",
+      "updatedAt": "2025-12-15T14:33:34.437Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d40",
+      "name": "Giỏ Quà Tết Mini Xinh Xắn",
+      "slug": "gio-qua-tet-mini-xinh-xan",
+      "description": "Giỏ quà Tết nhỏ xinh với bánh kẹo, hoa tươi. Phù hợp tặng bạn bè, đồng nghiệp.",
+      "price": 650000,
+      "images": [
+        "/uploads/583183427_1518762363089404_5803342512176862925_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655e",
+      "stock": 30,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.437Z",
+      "updatedAt": "2025-12-15T14:33:34.437Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d41",
+      "name": "Giỏ Quà Tết Cafe Hảo Hạng",
+      "slug": "gio-qua-tet-cafe-hao-hang",
+      "description": "Giỏ quà Tết với cafe hạt rang xay, bánh quy, chocolate. Thích hợp cho người sành cafe.",
+      "price": 1100000,
+      "images": [
+        "/uploads/583319462_1520405299591777_8455947471639717969_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655e",
+      "stock": 20,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.437Z",
+      "updatedAt": "2025-12-15T14:33:34.437Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d42",
+      "name": "Giỏ Quà Tết Đỏ Vàng Truyền Thống",
+      "slug": "gio-qua-tet-do-vang-truyen-thong",
+      "description": "Giỏ quà Tết đỏ vàng truyền thống với mèo thần tài, bánh kẹo, rượu. Đậm chất Tết Việt.",
+      "price": 1700000,
+      "images": [
+        "/uploads/583333748_1519438639688443_1509463790152103264_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655e",
+      "stock": 14,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.437Z",
+      "updatedAt": "2025-12-15T14:33:34.437Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d43",
+      "name": "Giỏ Quà Tết Hoa Hồng Đỏ",
+      "slug": "gio-qua-tet-hoa-hong-do",
+      "description": "Giỏ quà Tết với hoa hồng đỏ tươi, bánh kẹo nhập khẩu, rượu vang. Lãng mạn và sang trọng.",
+      "price": 1850000,
+      "images": [
+        "/uploads/583900873_1518763493089291_1231441185020157523_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655e",
+      "stock": 12,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.437Z",
+      "updatedAt": "2025-12-15T14:33:34.437Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d44",
+      "name": "Giỏ Quà Tết Xanh Biển Nhạt",
+      "slug": "gio-qua-tet-xanh-bien-nhat",
+      "description": "Giỏ quà Tết xanh biển nhẹ nhàng với bánh kẹo, trà, hoa. Thanh thoát và tinh tế.",
+      "price": 1200000,
+      "images": [
+        "/uploads/583927951_1518763459755961_5759739343228904054_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655e",
+      "stock": 18,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.437Z",
+      "updatedAt": "2025-12-15T14:33:34.437Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d45",
+      "name": "Giỏ Trái Cây Hoa Lan Vàng",
+      "slug": "gio-trai-cay-hoa-lan-vang",
+      "description": "Giỏ trái cây tươi với lan vũ nữ vàng rực rỡ. Sang trọng cho khai trương, chúc mừng.",
+      "price": 1200000,
+      "images": [
+        "/uploads/584580946_1519438709688436_8947896888464661624_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655f",
+      "stock": 15,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": true,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.437Z",
+      "updatedAt": "2025-12-15T14:33:34.437Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d46",
+      "name": "Giỏ Trái Cây Nhập Khẩu Premium",
+      "slug": "gio-trai-cay-nhap-khau-premium",
+      "description": "Giỏ trái cây nhập khẩu cao cấp: nho Mỹ, táo Envy, cam Úc, kiwi. Tươi ngon số 1.",
+      "price": 1800000,
+      "images": [
+        "/uploads/584790380_1518762409756066_3832979926012537049_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655f",
+      "stock": 10,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": true,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.437Z",
+      "updatedAt": "2025-12-15T14:33:34.437Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d47",
+      "name": "Giỏ Trái Cây Mini Xinh",
+      "slug": "gio-trai-cay-mini-xinh",
+      "description": "Giỏ trái cây nhỏ xinh với táo, cam, nho. Phù hợp thăm hỏi, tặng bạn bè.",
+      "price": 500000,
+      "images": [
+        "/uploads/585251531_1520405422925098_8298492538091852348_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655f",
+      "stock": 30,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.437Z",
+      "updatedAt": "2025-12-15T14:33:34.437Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d48",
+      "name": "Giỏ Trái Cây Hoa Cúc Vàng",
+      "slug": "gio-trai-cay-hoa-cuc-vang",
+      "description": "Giỏ trái cây tươi trang trí hoa cúc vàng rực rỡ. Tươi sáng và may mắn.",
+      "price": 900000,
+      "images": [
+        "/uploads/585883750_1523605395938434_3980393493864548669_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655f",
+      "stock": 20,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.437Z",
+      "updatedAt": "2025-12-15T14:33:34.437Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d49",
+      "name": "Giỏ Trái Cây Hoa Hồng Phấn",
+      "slug": "gio-trai-cay-hoa-hong-phan",
+      "description": "Giỏ trái cây tươi với hoa hồng phấn nhẹ nhàng. Thích hợp thăm bệnh, chúc mừng.",
+      "price": 1100000,
+      "images": [
+        "/uploads/585884250_1519438746355099_4322062920526688294_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655f",
+      "stock": 18,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.437Z",
+      "updatedAt": "2025-12-15T14:33:34.437Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d4a",
+      "name": "Tháp Trái Cây 3 Tầng",
+      "slug": "thap-trai-cay-3-tang",
+      "description": "Tháp trái cây 3 tầng hoành tráng với nho, cam, táo, kiwi. Ấn tượng cho sự kiện lớn.",
+      "price": 2500000,
+      "images": [
+        "/uploads/585890432_1523605329271774_8354429901321963440_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655f",
+      "stock": 5,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": true,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.437Z",
+      "updatedAt": "2025-12-15T14:33:34.437Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d4b",
+      "name": "Giỏ Trái Cây Hoa Đồng Tiền",
+      "slug": "gio-trai-cay-hoa-dong-tien",
+      "description": "Giỏ trái cây tươi trang trí hoa đồng tiền cam. Mang lại tài lộc và may mắn.",
+      "price": 950000,
+      "images": [
+        "/uploads/585890624_1523638709268436_2721450726066223664_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655f",
+      "stock": 22,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.437Z",
+      "updatedAt": "2025-12-15T14:33:34.437Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d4c",
+      "name": "Giỏ Trái Cây Đỏ Cam",
+      "slug": "gio-trai-cay-do-cam",
+      "description": "Giỏ trái cây với cam, táo đỏ, cherry trang trí hoa hồng đỏ. Rực rỡ và tươi tắn.",
+      "price": 1300000,
+      "images": [
+        "/uploads/585891142_1523639025935071_9138255653069144333_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655f",
+      "stock": 15,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.437Z",
+      "updatedAt": "2025-12-15T14:33:34.437Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d4d",
+      "name": "Giỏ Trái Cây Nho Xanh",
+      "slug": "gio-trai-cay-nho-xanh",
+      "description": "Giỏ trái cây với nho xanh Mỹ, táo xanh, lê. Tươi mát và thanh khiết.",
+      "price": 1150000,
+      "images": [
+        "/uploads/585892055_1523639062601734_8198241269740368806_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655f",
+      "stock": 18,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.438Z",
+      "updatedAt": "2025-12-15T14:33:34.438Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d4e",
+      "name": "Giỏ Trái Cây Hoa Lan Trắng",
+      "slug": "gio-trai-cay-hoa-lan-trang",
+      "description": "Giỏ trái cây cao cấp trang trí hoa lan trắng thanh lịch. Sang trọng và tinh tế.",
+      "price": 1400000,
+      "images": [
+        "/uploads/585898351_1523638919268415_2639661856954712191_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655f",
+      "stock": 10,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.438Z",
+      "updatedAt": "2025-12-20T02:26:21.310Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d4f",
+      "name": "Giỏ Trái Cây Hoa Baby",
+      "slug": "gio-trai-cay-hoa-baby",
+      "description": "Giỏ trái cây tươi trang trí baby breath trắng. Nhẹ nhàng và tinh khôi.",
+      "price": 850000,
+      "images": [
+        "/uploads/586039185_1523605472605093_3346212152869480946_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655f",
+      "stock": 25,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.438Z",
+      "updatedAt": "2025-12-15T14:33:34.438Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d50",
+      "name": "Giỏ Trái Cây Tròn Xinh",
+      "slug": "gio-trai-cay-tron-xinh",
+      "description": "Giỏ trái cây tròn xinh xắn với táo, cam, nho. Gọn gàng và dễ thương.",
+      "price": 750000,
+      "images": [
+        "/uploads/586631851_1523604775938496_55152807813925665_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655f",
+      "stock": 28,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.438Z",
+      "updatedAt": "2025-12-15T14:33:34.438Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d51",
+      "name": "Giỏ Trái Cây Hoa Hướng Dương",
+      "slug": "gio-trai-cay-hoa-huong-duong",
+      "description": "Giỏ trái cây tươi với hoa hướng dương vàng rực. Tươi sáng như ánh mặt trời.",
+      "price": 1000000,
+      "images": [
+        "/uploads/587032152_1525782499054057_6987612127900338660_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655f",
+      "stock": 18,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.438Z",
+      "updatedAt": "2025-12-15T14:33:34.438Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d52",
+      "name": "Giỏ Trái Cây Hoa Cẩm Tú Cầu",
+      "slug": "gio-trai-cay-hoa-cam-tu-cau",
+      "description": "Giỏ trái cây cao cấp trang trí hoa cẩm tú cầu xanh. Độc đáo và sang trọng.",
+      "price": 1250000,
+      "images": [
+        "/uploads/587042783_1523638865935087_982404140985604661_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa655f",
+      "stock": 9,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.438Z",
+      "updatedAt": "2025-12-29T02:15:26.739Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d53",
+      "name": "Hoa Cầm Tay Hồng Pastel",
+      "slug": "hoa-cam-tay-hong-pastel",
+      "description": "Bó hoa cầm tay cô dâu với hồng pastel, cẩm chướng, baby breath. Nhẹ nhàng và lãng mạn.",
+      "price": 550000,
+      "images": [
+        "/uploads/587092596_1525782479054059_8660623576063782266_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa6560",
+      "stock": 20,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.438Z",
+      "updatedAt": "2025-12-15T14:33:34.438Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d54",
+      "name": "Hoa Cưới Hồng Đỏ Cổ Điển",
+      "slug": "hoa-cuoi-hong-do-co-dien",
+      "description": "Bó hoa cưới hồng đỏ cổ điển với lá xanh, baby breath. Đẹp vượt thời gian.",
+      "price": 650000,
+      "images": [
+        "/uploads/587221702_1523638989268408_9123731857724791367_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa6560",
+      "stock": 18,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": true,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.438Z",
+      "updatedAt": "2025-12-15T14:33:34.438Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d55",
+      "name": "Hoa Cầm Tay Hồng Kem",
+      "slug": "hoa-cam-tay-hong-kem",
+      "description": "Bó hoa cầm tay hồng kem thanh lịch với cẩm chướng trắng. Tinh tế và sang trọng.",
+      "price": 500000,
+      "images": [
+        "/uploads/588545286_1525782702387370_391413519966241677_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa6560",
+      "stock": 22,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.438Z",
+      "updatedAt": "2025-12-15T14:33:34.438Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d56",
+      "name": "Hoa Cưới Hồng Tím Sen",
+      "slug": "hoa-cuoi-hong-tim-sen",
+      "description": "Bó hoa cưới hồng tím sen lãng mạn với hoa bi, cát tường. Độc đáo và ấn tượng.",
+      "price": 700000,
+      "images": [
+        "/uploads/588616368_1523604812605159_6857107058695014159_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa6560",
+      "stock": 15,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.438Z",
+      "updatedAt": "2025-12-15T14:33:34.438Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d57",
+      "name": "Hoa Cầm Tay Lan Trắng",
+      "slug": "hoa-cam-tay-lan-trang",
+      "description": "Bó hoa cầm tay lan trắng tinh khôi, thanh lịch. Vẻ đẹp thuần khiết cho cô dâu.",
+      "price": 750000,
+      "images": [
+        "/uploads/588953441_1525782535720720_5616173906134187652_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa6560",
+      "stock": 15,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": true,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.438Z",
+      "updatedAt": "2025-12-15T14:33:34.438Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d58",
+      "name": "Hoa Cưới Hồng Đào",
+      "slug": "hoa-cuoi-hong-dao",
+      "description": "Bó hoa cưới hồng đào dịu dàng với baby breath trắng. Nữ tính và lãng mạn.",
+      "price": 580000,
+      "images": [
+        "/uploads/588960815_1527536732211967_2344426584382867669_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa6560",
+      "stock": 20,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.438Z",
+      "updatedAt": "2025-12-15T14:33:34.438Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d59",
+      "name": "Hoa Cầm Tay Cát Tường",
+      "slug": "hoa-cam-tay-cat-tuong",
+      "description": "Bó hoa cầm tay cát tường hồng, trắng, tím. Đẹp và ý nghĩa tốt lành.",
+      "price": 480000,
+      "images": [
+        "/uploads/589007206_1527539028878404_1177154374750964682_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa6560",
+      "stock": 25,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.438Z",
+      "updatedAt": "2025-12-15T14:33:34.438Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d5a",
+      "name": "Hoa Cưới Hồng Cam Rực Rỡ",
+      "slug": "hoa-cuoi-hong-cam-ruc-ro",
+      "description": "Bó hoa cưới hồng cam rực rỡ với lá xanh tươi. Tươi sáng và vui tươi.",
+      "price": 620000,
+      "images": [
+        "/uploads/589009223_1525662142399426_2611379896388152967_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa6560",
+      "stock": 18,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.438Z",
+      "updatedAt": "2025-12-15T14:33:34.438Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d5b",
+      "name": "Hoa Cầm Tay Sen Đá",
+      "slug": "hoa-cam-tay-sen-da",
+      "description": "Bó hoa cầm tay với sen đá, hồng, baby breath. Độc đáo phong cách rustic.",
+      "price": 700000,
+      "images": [
+        "/uploads/589250010_1527538018878505_4526671413362044532_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa6560",
+      "stock": 12,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.438Z",
+      "updatedAt": "2025-12-15T14:33:34.438Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d5c",
+      "name": "Hoa Cưới Trắng Tinh Khôi",
+      "slug": "hoa-cuoi-trang-tinh-khoi",
+      "description": "Bó hoa cưới trắng tinh khôi với hồng trắng, lan, cẩm tú cầu. Thanh lịch tuyệt đối.",
+      "price": 800000,
+      "images": [
+        "/uploads/589550243_1527537022211938_8290678143923756958_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa6560",
+      "stock": 7,
+      "isActive": true,
+      "averageRating": 5,
+      "totalReviews": 1,
+      "tags": [],
+      "featured": true,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.438Z",
+      "updatedAt": "2025-12-20T14:58:12.656Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d5d",
+      "name": "Hoa Cầm Tay Tím Lavender",
+      "slug": "hoa-cam-tay-tim-lavender",
+      "description": "Bó hoa cầm tay tím lavender lãng mạn với cát tường. Mộng mơ và thanh tao.",
+      "price": 550000,
+      "images": [
+        "/uploads/589610527_1525782592387381_3867519009652576508_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa6560",
+      "stock": 17,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.438Z",
+      "updatedAt": "2025-12-20T02:31:41.291Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d5e",
+      "name": "Hoa Cưới Hồng Phấn Baby",
+      "slug": "hoa-cuoi-hong-phan-baby",
+      "description": "Bó hoa cưới hồng phấn với baby breath trắng. Nhẹ nhàng như áng mây.",
+      "price": 520000,
+      "images": [
+        "/uploads/589732576_1527539215545052_1464766892496285428_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa6560",
+      "stock": 21,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.438Z",
+      "updatedAt": "2025-12-20T02:20:12.503Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d5f",
+      "name": "Hoa Cầm Tay Calla Lily",
+      "slug": "hoa-cam-tay-calla-lily",
+      "description": "Bó hoa cầm tay calla lily trắng thanh lịch. Vẻ đẹp hiện đại và tinh tế.",
+      "price": 680000,
+      "images": [
+        "/uploads/589736331_1527536848878622_150036282381607680_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa6560",
+      "stock": 15,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.438Z",
+      "updatedAt": "2025-12-15T14:33:34.438Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d60",
+      "name": "Hoa Cưới Hồng Đỏ Thắm",
+      "slug": "hoa-cuoi-hong-do-tham",
+      "description": "Bó hoa cưới hồng đỏ thắm với lá xanh đậm. Đam mê và nồng cháy.",
+      "price": 600000,
+      "images": [
+        "/uploads/589808679_1527537152211925_5329001558883181287_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa6560",
+      "stock": 20,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.438Z",
+      "updatedAt": "2025-12-15T14:33:34.438Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d61",
+      "name": "Hoa Cầm Tay Mini Xinh",
+      "slug": "hoa-cam-tay-mini-xinh",
+      "description": "Bó hoa cầm tay mini xinh xắn với hồng, cẩm chướng. Gọn gàng và dễ thương.",
+      "price": 400000,
+      "images": [
+        "/uploads/589823813_1527536872211953_2727485814938597092_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa6560",
+      "stock": 30,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.438Z",
+      "updatedAt": "2025-12-15T14:33:34.438Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d62",
+      "name": "Giỏ Quà Rượu Vang Cao Cấp",
+      "slug": "gio-qua-ruou-vang-cao-cap",
+      "description": "Giỏ quà với rượu vang đỏ cao cấp, chocolate, hoa hồng. Đẳng cấp cho đối tác.",
+      "price": 2500000,
+      "images": [
+        "/uploads/590210091_1525782642387376_5667392483889383455_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa6561",
+      "stock": 10,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": true,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.438Z",
+      "updatedAt": "2025-12-15T14:33:34.438Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d63",
+      "name": "Giỏ Quà Sinh Nhật Hồng",
+      "slug": "gio-qua-sinh-nhat-hong",
+      "description": "Giỏ quà sinh nhật tông hồng với bánh kẹo, hoa hồng. Ngọt ngào cho người thương.",
+      "price": 800000,
+      "images": [
+        "/uploads/591025610_1527539292211711_8067780160844567623_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa6561",
+      "stock": 20,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.438Z",
+      "updatedAt": "2025-12-15T14:33:34.438Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d64",
+      "name": "Giỏ Quà 8/3 Hoa Hồng",
+      "slug": "gio-qua-8-3-hoa-hong",
+      "description": "Giỏ quà ngày phụ nữ với hoa hồng đỏ, chocolate, bánh. Yêu thương gửi trao.",
+      "price": 950000,
+      "images": [
+        "/uploads/591264714_1527539372211703_7001342989063866473_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa6561",
+      "stock": 25,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.438Z",
+      "updatedAt": "2025-12-15T14:33:34.438Z"
+    },
+    {
+      "_id": "69401c3e28dfc3d5835d9d65",
+      "name": "Giỏ Quà Khai Trương",
+      "slug": "gio-qua-khai-truong",
+      "description": "Giỏ quà khai trương với trái cây, bánh, hoa tươi. Chúc thịnh vượng phát tài.",
+      "price": 1200000,
+      "images": [
+        "/uploads/591507334_1527538618878445_8277644600208471110_n.jpg"
+      ],
+      "category": "693d6126e60fcbfb9faa6561",
+      "stock": 15,
+      "isActive": true,
+      "averageRating": 0,
+      "totalReviews": 0,
+      "tags": [],
+      "featured": false,
+      "__v": 0,
+      "createdAt": "2025-12-15T14:33:34.438Z",
+      "updatedAt": "2025-12-15T14:33:34.438Z"
+    }
+  ],
+  "categories": [
+    {
+      "_id": "693d6126e60fcbfb9faa655d",
+      "name": "Mâm Quả Cưới",
+      "slug": "mam-qua-cuoi",
+      "description": "Mâm quả truyền thống cho lễ ăn hỏi, đám cưới",
+      "image": "/uploads/592204609_1530122611953379_2439974153919650602_n.jpg",
+      "isActive": true,
+      "__v": 0,
+      "createdAt": "2025-12-13T12:50:46.573Z",
+      "updatedAt": "2025-12-13T12:50:46.573Z"
+    },
+    {
+      "_id": "693d6126e60fcbfb9faa655e",
+      "name": "Giỏ Quà Tết",
+      "slug": "gio-qua-tet",
+      "description": "Giỏ quà sang trọng dịp Tết Nguyên Đán",
+      "image": "/uploads/594275383_1534065998225707_1787392301771161655_n.jpg",
+      "isActive": true,
+      "__v": 0,
+      "createdAt": "2025-12-13T12:50:46.573Z",
+      "updatedAt": "2025-12-13T12:50:46.573Z"
+    },
+    {
+      "_id": "693d6126e60fcbfb9faa655f",
+      "name": "Giỏ Trái Cây",
+      "slug": "gio-trai-cay",
+      "description": "Giỏ trái cây tươi kết hợp hoa trang trí",
+      "image": "/uploads/597323554_1538325517799755_8209913830030218240_n.jpg",
+      "isActive": true,
+      "__v": 0,
+      "createdAt": "2025-12-13T12:50:46.573Z",
+      "updatedAt": "2025-12-13T12:50:46.573Z"
+    },
+    {
+      "_id": "693d6126e60fcbfb9faa6560",
+      "name": "Hoa Cưới",
+      "slug": "hoa-cuoi",
+      "description": "Hoa cầm tay cô dâu, hoa cài áo",
+      "image": "/uploads/595151883_1536096181356022_3910860693793482297_n.jpg",
+      "isActive": true,
+      "__v": 0,
+      "createdAt": "2025-12-13T12:50:46.573Z",
+      "updatedAt": "2025-12-13T12:50:46.573Z"
+    },
+    {
+      "_id": "693d6126e60fcbfb9faa6561",
+      "name": "Quà Tặng",
+      "slug": "qua-tang",
+      "description": "Giỏ quà bánh kẹo, rượu cho các dịp đặc biệt",
+      "image": "/uploads/595155000_1538325424466431_8982145334792521892_n.jpg",
+      "isActive": true,
+      "__v": 0,
+      "createdAt": "2025-12-13T12:50:46.573Z",
+      "updatedAt": "2025-12-13T12:50:46.573Z"
+    }
+  ]
+}
