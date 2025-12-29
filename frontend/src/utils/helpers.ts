@@ -3,7 +3,8 @@
  */
 
 // API URL - centralized configuration
-export const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+// In production, use empty string to use same origin
+export const API_URL = import.meta.env.VITE_API_URL || (import.meta.env.PROD ? '' : 'http://localhost:5000');
 
 /**
  * Convert a relative image path to a full URL

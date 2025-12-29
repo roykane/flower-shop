@@ -1,7 +1,8 @@
 import { io, Socket } from 'socket.io-client';
 import { useAuthStore } from '@/store/useStore';
 
-const SOCKET_URL = import.meta.env.VITE_SOCKET_URL || 'http://localhost:5000';
+// In production, use empty string to connect to same origin
+const SOCKET_URL = import.meta.env.VITE_SOCKET_URL || (import.meta.env.PROD ? '' : 'http://localhost:5000');
 
 // Generate or get session ID for anonymous users
 const getSessionId = (): string => {
