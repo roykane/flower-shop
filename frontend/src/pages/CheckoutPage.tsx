@@ -235,7 +235,7 @@ export default function CheckoutPage() {
       formData.append('image', paymentProofFile);
       formData.append('orderCode', orderId);
 
-      const response = await fetch(`${API_URL}/api/upload/payment-proof`, {
+      const response = await fetch(`${API_URL}/upload/payment-proof`, {
         method: 'POST',
         body: formData,
       });
