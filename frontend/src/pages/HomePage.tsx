@@ -177,158 +177,123 @@ export default function HomePage() {
       />
       <div className="min-h-screen bg-[#FEFDFB]">
         {/* ========== HERO SECTION ========== */}
-      <section className="relative min-h-[55vh] lg:min-h-[65vh] flex items-center overflow-hidden">
-        {/* Animated Background */}
-        <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#FDF8F5] via-[#FEF7F2] to-[#FCF5EE]" />
-          
+      <section className="relative min-h-[auto] lg:min-h-[55vh] flex items-center overflow-hidden bg-gradient-to-br from-[#FDF8F5] via-[#FEF7F2] to-[#FCF5EE]">
+        {/* Animated Background - Desktop only */}
+        <div className="absolute inset-0 hidden lg:block">
           {/* Hero Image with Animation */}
-          <div className="absolute top-0 right-0 w-[55%] h-full opacity-0 lg:opacity-100 hero-image-animate">
-            <div 
+          <div className="absolute top-0 right-0 w-[50%] h-full opacity-0 lg:opacity-100 hero-image-animate">
+            <div
               className="absolute inset-0 bg-cover bg-center scale-105 slow-zoom-animate"
               style={{ backgroundImage: `url(${heroFlowers})` }}
             />
             <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#FEFDFB]/70 to-[#FEFDFB]" />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#FEFDFB]/30 to-transparent" />
           </div>
-          
+
           {/* Floating Decorations */}
           <div className="absolute top-20 left-[15%] w-3 h-3 bg-rose-300 rounded-full float-1 opacity-60" />
           <div className="absolute top-32 left-[25%] w-2 h-2 bg-pink-400 rounded-full float-2 opacity-50" />
-          <div className="absolute top-48 left-[10%] w-4 h-4 bg-rose-200 rounded-full float-3 opacity-40" />
-          <div className="absolute bottom-32 left-[20%] w-2 h-2 bg-amber-300 rounded-full float-1 opacity-50" />
-          
-          {/* Subtle Pattern */}
-          <div 
-            className="absolute inset-0 opacity-[0.015]"
-            style={{
-              backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
-            }}
-          />
         </div>
 
-        <div className="container mx-auto px-4 lg:px-8 relative z-10 py-10 lg:py-14">
+        <div className="container mx-auto px-4 lg:px-8 relative z-10 py-6 lg:py-10">
           <div className="max-w-2xl">
-            {/* Badge với Animation */}
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-rose-50 border border-rose-100 mb-5 slide-down-animate">
+            {/* Badge - ẩn trên mobile */}
+            <div className="hidden md:inline-flex items-center gap-2 px-3 py-1 rounded-full bg-rose-50 border border-rose-100 mb-3 slide-down-animate">
               <span className="relative flex h-2 w-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-rose-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-rose-500"></span>
               </span>
-              <span className="text-xs font-medium text-rose-600 tracking-wide">GIAO HÀNG TẬN NƠI - AN GIANG</span>
+              <span className="text-xs font-medium text-rose-600">GIAO HÀNG TẬN NƠI - AN GIANG</span>
             </div>
 
-            {/* Heading - Fixed Layout với khoảng cách rõ ràng */}
-            <div className="mb-6 space-y-3">
-              <h1 className="text-3xl md:text-4xl lg:text-[2.75rem] font-serif text-stone-800 leading-[1.2] tracking-tight slide-up-animate-1">
-                Dịch Vụ Mâm Quả Cưới
-              </h1>
-              <div className="flex items-center gap-3 slide-up-animate-2">
+            {/* Heading - Compact và liền khối */}
+            <div className="mb-4 slide-up-animate-1">
+              <h1 className="text-2xl md:text-3xl lg:text-4xl font-serif text-stone-800 leading-tight">
+                Dịch Vụ Mâm Quả Cưới{' '}
                 <span className="relative inline-block">
-                  <span className="text-3xl md:text-4xl lg:text-[2.75rem] font-serif font-semibold bg-gradient-to-r from-rose-500 via-pink-500 to-rose-400 bg-clip-text text-transparent gradient-animate">
+                  <span className="bg-gradient-to-r from-rose-500 via-pink-500 to-rose-400 bg-clip-text text-transparent font-semibold">
                     Minh Anh
                   </span>
-                  {/* Underline decoration */}
-                  <svg className="absolute -bottom-1 left-0 w-full h-3 text-rose-300" viewBox="0 0 120 12" preserveAspectRatio="none">
-                    <path 
-                      d="M2 8 Q 30 2, 60 8 T 118 8" 
-                      stroke="currentColor" 
-                      strokeWidth="3" 
-                      fill="none" 
-                      strokeLinecap="round"
-                      className="draw-line-animate"
-                    />
+                  <svg className="absolute -bottom-0.5 left-0 w-full h-2 text-rose-300 hidden md:block" viewBox="0 0 120 8" preserveAspectRatio="none">
+                    <path d="M2 6 Q 30 2, 60 6 T 118 6" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" className="draw-line-animate" />
                   </svg>
                 </span>
-                <span className="text-3xl md:text-4xl bounce-in-animate">🌸</span>
-              </div>
+                <span className="text-xl md:text-2xl ml-1">🌸</span>
+              </h1>
             </div>
 
-            {/* Description */}
-            <p className="text-base lg:text-lg text-stone-500 mb-6 max-w-lg leading-relaxed slide-up-animate-3">
-              Chuyên Cổng Cưới Hoa Tươi, Cổng Cưới Rồng Phụng, Mâm Quả Rồng Phụng, Mâm Quả Truyền Thống, Mâm Quả Hiện Đại.
+            {/* Description - ngắn gọn hơn trên mobile */}
+            <p className="text-sm md:text-base text-stone-500 mb-4 leading-relaxed slide-up-animate-2 line-clamp-2 md:line-clamp-none">
+              Chuyên Cổng Cưới Hoa Tươi, Mâm Quả Rồng Phụng, Mâm Quả Truyền Thống & Hiện Đại.
             </p>
 
-            {/* Search Bar */}
-            <form onSubmit={handleSearch} className="relative mb-6 slide-up-animate-4">
-              <div className="flex items-center bg-white rounded-2xl shadow-lg shadow-stone-200/50 border border-stone-100 overflow-hidden transition-all duration-300 hover:shadow-xl hover:shadow-rose-100/50 hover:border-rose-100 focus-within:shadow-xl focus-within:shadow-rose-100/50 focus-within:border-rose-200">
-                <HiOutlineSearch className="w-5 h-5 text-stone-400 ml-4 flex-shrink-0" />
+            {/* Search Bar - compact hơn */}
+            <form onSubmit={handleSearch} className="relative mb-4 slide-up-animate-3">
+              <div className="flex items-center bg-white rounded-xl shadow-md border border-stone-100 overflow-hidden">
+                <HiOutlineSearch className="w-4 h-4 text-stone-400 ml-3 flex-shrink-0" />
                 <input
                   type="text"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  placeholder="Tìm hoa, mâm quả, quà tặng..."
-                  className="flex-1 px-4 py-3.5 lg:py-4 text-stone-700 placeholder:text-stone-400 focus:outline-none text-sm lg:text-base bg-transparent"
+                  placeholder="Tìm hoa, mâm quả..."
+                  className="flex-1 px-3 py-2.5 lg:py-3 text-stone-700 placeholder:text-stone-400 focus:outline-none text-sm bg-transparent"
                 />
                 <button
                   type="submit"
-                  className="px-5 lg:px-6 py-3.5 lg:py-4 bg-gradient-to-r from-rose-500 to-pink-500 text-white font-medium transition-all text-sm lg:text-base hover:from-rose-600 hover:to-pink-600 hover:shadow-lg active:scale-[0.98] flex-shrink-0"
+                  className="px-4 py-2.5 lg:py-3 bg-gradient-to-r from-rose-500 to-pink-500 text-white font-medium text-sm hover:from-rose-600 hover:to-pink-600 flex-shrink-0"
                 >
-                  Tìm Kiếm
+                  Tìm
                 </button>
               </div>
             </form>
 
-            {/* Quick Actions */}
-            <div className="flex flex-wrap gap-3 mb-6 slide-up-animate-5">
+            {/* Quick Actions - compact */}
+            <div className="flex flex-wrap gap-2 mb-3 slide-up-animate-4">
               <button
                 onClick={scrollToProducts}
-                className="inline-flex items-center gap-2 px-5 py-2.5 bg-stone-800 text-white rounded-xl text-sm font-medium transition-all hover:bg-stone-700 hover:-translate-y-0.5 hover:shadow-lg active:translate-y-0 group"
+                className="inline-flex items-center gap-1.5 px-4 py-2 bg-stone-800 text-white rounded-lg text-sm font-medium hover:bg-stone-700 group"
               >
                 Xem Sản Phẩm
-                <HiArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+                <HiArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
               </button>
               <Link
                 to="/contact"
-                className="inline-flex items-center gap-2 px-5 py-2.5 bg-white border-2 border-stone-200 text-stone-700 rounded-xl text-sm font-medium transition-all hover:border-rose-300 hover:bg-rose-50 hover:-translate-y-0.5 hover:shadow-md active:translate-y-0 group"
+                className="inline-flex items-center gap-1.5 px-4 py-2 bg-white border border-stone-200 text-stone-700 rounded-lg text-sm font-medium hover:border-rose-200 hover:bg-rose-50 group"
               >
-                <HiOutlinePhone className="w-4 h-4 transition-transform group-hover:rotate-12" />
-                Đặt Hàng Riêng
+                <HiOutlinePhone className="w-3.5 h-3.5" />
+                Đặt Riêng
               </Link>
             </div>
 
-            {/* Trust Badges */}
-            <div className="flex flex-wrap items-center gap-3 text-xs text-stone-500 fade-in-animate">
-              <span className="flex items-center gap-1.5 bg-white/80 backdrop-blur-sm px-3 py-1.5 rounded-full border border-stone-100">
-                <span className="text-amber-400 flex gap-0.5">
-                  <span className="star-pop-1">★</span>
-                  <span className="star-pop-2">★</span>
-                  <span className="star-pop-3">★</span>
-                  <span className="star-pop-4">★</span>
-                  <span className="star-pop-5">★</span>
-                </span>
-                <span className="font-medium">4.9/5</span>
+            {/* Trust Badges - compact */}
+            <div className="flex items-center gap-2 text-xs text-stone-500 fade-in-animate">
+              <span className="flex items-center gap-1 bg-white/80 px-2 py-1 rounded-full border border-stone-100">
+                <span className="text-amber-400">★★★★★</span>
+                <span className="font-medium">4.9</span>
               </span>
-              <span className="flex items-center gap-1.5 bg-white/80 backdrop-blur-sm px-3 py-1.5 rounded-full border border-stone-100">
+              <span className="flex items-center gap-1 bg-white/80 px-2 py-1 rounded-full border border-stone-100">
                 <span className="text-emerald-500">✓</span>
-                <span>1000+ đơn thành công</span>
+                <span>1000+ đơn</span>
               </span>
             </div>
-          </div>
-        </div>
-
-        {/* Scroll Indicator */}
-        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 animate-bounce hidden lg:block">
-          <div className="w-6 h-10 rounded-full border-2 border-stone-300 flex justify-center pt-2">
-            <div className="w-1 h-2.5 rounded-full bg-stone-400 scroll-down-animate" />
           </div>
         </div>
       </section>
 
       {/* ========== FEATURES BAR ========== */}
       <section className="border-y border-stone-100 bg-white/90 backdrop-blur-md sticky top-0 z-40">
-        <div className="container mx-auto px-4 lg:px-8">
-          <div className="grid grid-cols-2 lg:grid-cols-4 divide-x divide-stone-100">
+        <div className="container mx-auto px-3 lg:px-8">
+          {/* Mobile: scroll horizontal, Desktop: grid */}
+          <div className="flex lg:grid lg:grid-cols-4 gap-0 overflow-x-auto scrollbar-hide lg:overflow-visible divide-x divide-stone-100">
             {features.map((f, i) => (
-              <div 
-                key={i} 
-                className="flex items-center gap-3 py-3 lg:py-4 px-2 lg:px-4 group cursor-default transition-colors hover:bg-rose-50/50"
+              <div
+                key={i}
+                className="flex items-center gap-2 py-2 lg:py-3 px-3 lg:px-4 flex-shrink-0 min-w-[140px] lg:min-w-0"
               >
-                <div className="w-9 h-9 lg:w-10 lg:h-10 rounded-xl bg-gradient-to-br from-rose-50 to-pink-50 flex items-center justify-center flex-shrink-0 transition-transform group-hover:scale-110 group-hover:rotate-3">
-                  <f.icon className="w-4 h-4 lg:w-5 lg:h-5 text-rose-500" />
+                <div className="w-8 h-8 lg:w-9 lg:h-9 rounded-lg bg-gradient-to-br from-rose-50 to-pink-50 flex items-center justify-center flex-shrink-0">
+                  <f.icon className="w-4 h-4 text-rose-500" />
                 </div>
                 <div className="min-w-0">
-                  <p className="text-xs lg:text-sm font-semibold text-stone-800 truncate">{f.title}</p>
+                  <p className="text-[11px] lg:text-sm font-semibold text-stone-800 truncate">{f.title}</p>
                   <p className="text-[10px] lg:text-xs text-stone-500 truncate">{f.desc}</p>
                 </div>
               </div>
@@ -341,45 +306,45 @@ export default function HomePage() {
       <FlashSale />
 
       {/* ========== CATEGORIES ========== */}
-      <section className="py-6 lg:py-8 bg-white">
-        <div className="container mx-auto px-4 lg:px-8">
-          <div className="flex items-center justify-between mb-4">
-            <h2 className="text-lg lg:text-xl font-serif text-stone-800">Danh Mục Sản Phẩm</h2>
-            <Link to="/products" className="text-sm text-rose-500 hover:text-rose-600 font-medium flex items-center gap-1 group">
-              Tất cả <HiArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+      <section className="py-4 lg:py-6 bg-white">
+        <div className="container mx-auto px-3 lg:px-8">
+          <div className="flex items-center justify-between mb-3">
+            <h2 className="text-base lg:text-lg font-serif text-stone-800">Danh Mục</h2>
+            <Link to="/products" className="text-xs text-rose-500 hover:text-rose-600 font-medium flex items-center gap-0.5">
+              Tất cả <HiArrowRight className="w-3.5 h-3.5" />
             </Link>
           </div>
-          
-          <div className="flex gap-3 overflow-x-auto pb-2 scrollbar-hide -mx-4 px-4 lg:mx-0 lg:px-0">
+
+          <div className="flex gap-2 overflow-x-auto pb-1 scrollbar-hide -mx-3 px-3 lg:mx-0 lg:px-0">
             <button
               onClick={() => { setSelectedCategory('all'); scrollToProducts(); }}
-              className={`flex-shrink-0 px-4 py-2.5 rounded-xl border transition-all text-sm font-medium ${
+              className={`flex-shrink-0 px-3 py-2 rounded-lg border transition-all text-xs font-medium ${
                 selectedCategory === 'all'
-                  ? 'bg-stone-800 text-white border-stone-800 shadow-lg'
-                  : 'bg-white text-stone-600 border-stone-200 hover:border-stone-300 hover:shadow'
+                  ? 'bg-stone-800 text-white border-stone-800'
+                  : 'bg-white text-stone-600 border-stone-200 hover:border-stone-300'
               }`}
             >
               Tất cả
             </button>
-            
+
             {displayCategories.map((cat, i) => {
               const hasImage = cat.image && cat.image !== '';
               const defaultCat = defaultCategories[i] || defaultCategories[0];
-              
+
               return (
                 <button
                   key={cat._id}
                   onClick={() => { setSelectedCategory(cat.slug); scrollToProducts(); }}
-                  className={`flex-shrink-0 flex items-center gap-2 px-4 py-2.5 rounded-xl border transition-all text-sm font-medium ${
+                  className={`flex-shrink-0 flex items-center gap-1.5 px-3 py-2 rounded-lg border transition-all text-xs font-medium ${
                     selectedCategory === cat.slug
-                      ? 'bg-rose-500 text-white border-rose-500 shadow-lg shadow-rose-200'
-                      : 'bg-white text-stone-600 border-stone-200 hover:border-rose-200 hover:bg-rose-50 hover:shadow'
+                      ? 'bg-rose-500 text-white border-rose-500'
+                      : 'bg-white text-stone-600 border-stone-200 hover:border-rose-200 hover:bg-rose-50'
                   }`}
                 >
                   {hasImage ? (
-                    <img src={getImageUrl(cat.image)} alt="" className="w-5 h-5 rounded-full object-cover" />
+                    <img src={getImageUrl(cat.image)} alt="" className="w-4 h-4 rounded-full object-cover" />
                   ) : (
-                    <span className="text-base">{defaultCat.icon}</span>
+                    <span className="text-sm">{defaultCat.icon}</span>
                   )}
                   <span className="whitespace-nowrap">{cat.name}</span>
                 </button>
@@ -390,25 +355,25 @@ export default function HomePage() {
       </section>
 
       {/* ========== PRODUCTS SECTION ========== */}
-      <section ref={productSectionRef} className="py-6 lg:py-8 bg-[#FEFDFB]">
-        <div className="container mx-auto px-4 lg:px-8">
+      <section ref={productSectionRef} className="py-4 lg:py-6 bg-[#FEFDFB]">
+        <div className="container mx-auto px-3 lg:px-8">
           {/* Filter Bar */}
-          <div className="flex flex-wrap items-center justify-between gap-4 mb-6">
-            <div className="flex items-center gap-2">
-              <h2 className="text-lg lg:text-xl font-serif text-stone-800">Sản Phẩm</h2>
-              <span className="text-sm text-stone-400">({filteredProducts.length} sản phẩm)</span>
+          <div className="flex flex-wrap items-center justify-between gap-2 mb-4">
+            <div className="flex items-center gap-1.5">
+              <h2 className="text-base lg:text-lg font-serif text-stone-800">Sản Phẩm</h2>
+              <span className="text-xs text-stone-400">({filteredProducts.length})</span>
             </div>
-            
+
             {/* Price Filter */}
-            <div className="flex gap-2 overflow-x-auto scrollbar-hide">
+            <div className="flex gap-1.5 overflow-x-auto scrollbar-hide">
               {priceFilters.map((filter) => (
                 <button
                   key={filter.value}
                   onClick={() => setSelectedPrice(filter.value)}
-                  className={`flex-shrink-0 px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
+                  className={`flex-shrink-0 px-2.5 py-1 rounded-md text-[11px] font-medium transition-all ${
                     selectedPrice === filter.value
-                      ? 'bg-stone-800 text-white shadow'
-                      : 'bg-white text-stone-600 border border-stone-200 hover:border-stone-300'
+                      ? 'bg-stone-800 text-white'
+                      : 'bg-white text-stone-600 border border-stone-200'
                   }`}
                 >
                   {filter.label}
@@ -419,18 +384,18 @@ export default function HomePage() {
 
           {/* Products Grid */}
           {isLoading ? (
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 lg:gap-5">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 lg:gap-4">
               {[...Array(10)].map((_, i) => (
                 <div key={i} className="animate-pulse">
-                  <div className="aspect-square bg-stone-200 rounded-xl mb-2" />
-                  <div className="h-3 bg-stone-200 rounded w-3/4 mb-1.5" />
+                  <div className="aspect-square bg-stone-200 rounded-lg mb-1.5" />
+                  <div className="h-3 bg-stone-200 rounded w-3/4 mb-1" />
                   <div className="h-3 bg-stone-200 rounded w-1/2" />
                 </div>
               ))}
             </div>
           ) : filteredProducts.length > 0 ? (
             <>
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 lg:gap-5">
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 lg:gap-4">
                 {displayProducts.map((product, i) => (
                   <ProductCard
                     key={product._id}
@@ -483,41 +448,38 @@ export default function HomePage() {
       </section>
 
       {/* ========== WEDDING BANNER ========== */}
-      <section className="py-8 lg:py-12">
-        <div className="container mx-auto px-4 lg:px-8">
-          <div className="relative rounded-2xl lg:rounded-3xl overflow-hidden bg-gradient-to-r from-rose-500 via-rose-400 to-pink-400 group">
-            {/* Animated Pattern */}
-            <div 
-              className="absolute inset-0 opacity-10 pattern-move"
-              style={{
-                backgroundImage: `url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23ffffff' fill-opacity='1' fill-rule='evenodd'/%3E%3C/svg%3E")`
-              }}
-            />
-            
-            <div className="relative py-10 lg:py-16 px-6 lg:px-12 text-white">
-              <div className="max-w-xl">
-                <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/20 backdrop-blur-sm text-xs font-medium mb-4">
+      <section className="py-4 lg:py-8">
+        <div className="container mx-auto px-3 lg:px-8">
+          <div className="relative rounded-xl lg:rounded-2xl overflow-hidden bg-gradient-to-r from-rose-500 via-rose-400 to-pink-400">
+            {/* Subtle Pattern */}
+            <div className="absolute inset-0 opacity-10 pattern-move" style={{
+              backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7z' fill='%23ffffff' fill-opacity='1'/%3E%3C/svg%3E")`
+            }} />
+
+            <div className="relative py-6 lg:py-10 px-4 lg:px-10 text-white">
+              <div className="max-w-lg">
+                <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-white/20 text-[11px] font-medium mb-2">
                   💐 Dịch Vụ Trọn Gói
                 </span>
-                <h2 className="text-2xl lg:text-3xl font-serif mb-3 text-white">
+                <h2 className="text-lg lg:text-2xl font-serif mb-2 text-white leading-tight">
                   Hoa Cưới & Mâm Quả Sang Trọng
                 </h2>
-                <p className="text-white/90 text-sm lg:text-base mb-6 leading-relaxed">
-                  Tạo khoảnh khắc đáng nhớ cho ngày trọng đại. Từ bó hoa cô dâu đến mâm quả cưới trọn gói theo phong tục địa phương.
+                <p className="text-white/90 text-xs lg:text-sm mb-4 leading-relaxed line-clamp-2 lg:line-clamp-none">
+                  Từ bó hoa cô dâu đến mâm quả cưới trọn gói theo phong tục địa phương.
                 </p>
-                <div className="flex flex-wrap gap-3">
+                <div className="flex flex-wrap gap-2">
                   <Link
                     to="/hoa-cuoi"
-                    className="inline-flex items-center gap-2 px-5 py-2.5 bg-white text-rose-500 rounded-xl font-medium hover:bg-rose-50 transition-all hover:shadow-lg text-sm group"
+                    className="inline-flex items-center gap-1.5 px-4 py-2 bg-white text-rose-500 rounded-lg font-medium text-xs hover:bg-rose-50 group"
                   >
-                    Xem Hoa Cưới
-                    <HiArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+                    Hoa Cưới
+                    <HiArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
                   </Link>
                   <Link
                     to="/mam-qua-cuoi"
-                    className="inline-flex items-center gap-2 px-5 py-2.5 bg-white/20 backdrop-blur-sm text-white rounded-xl font-medium hover:bg-white/30 transition-all text-sm"
+                    className="inline-flex items-center gap-1.5 px-4 py-2 bg-white/20 text-white rounded-lg font-medium text-xs hover:bg-white/30"
                   >
-                    Xem Mâm Quả
+                    Mâm Quả
                   </Link>
                 </div>
               </div>
@@ -813,67 +775,60 @@ function ProductCard({ product, index, getImageUrl, onQuickAdd, onQuickView, isF
   return (
     <div
       className="group fadeIn-animate relative"
-      style={{ animationDelay: `${index * 40}ms` }}
+      style={{ animationDelay: `${index * 30}ms` }}
     >
-      {/* Favorite Button - Outside Link */}
+      {/* Favorite Button */}
       <button
         onClick={onToggleFavorite}
-        className={`absolute top-2 right-2 z-10 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 ${
+        className={`absolute top-1.5 right-1.5 z-10 w-7 h-7 rounded-full flex items-center justify-center transition-all ${
           isFavorite
-            ? 'bg-rose-500 text-white shadow-lg'
-            : 'bg-white/90 backdrop-blur-sm text-stone-400 hover:bg-rose-500 hover:text-white shadow-md'
+            ? 'bg-rose-500 text-white shadow'
+            : 'bg-white/90 text-stone-400 hover:bg-rose-500 hover:text-white shadow-sm'
         }`}
       >
-        {isFavorite ? (
-          <HiHeart className="w-4 h-4" />
-        ) : (
-          <HiOutlineHeart className="w-4 h-4" />
-        )}
+        {isFavorite ? <HiHeart className="w-3.5 h-3.5" /> : <HiOutlineHeart className="w-3.5 h-3.5" />}
       </button>
 
       <Link to={`/products/${product._id}`} className="block">
         {/* Image */}
-        <div className="relative aspect-square rounded-xl overflow-hidden bg-stone-100 mb-2 shadow-sm">
+        <div className="relative aspect-square rounded-lg overflow-hidden bg-stone-100 mb-1.5">
           <img
             src={getImageUrl(product.images?.[0] || '')}
             alt={product.name}
-            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
             loading="lazy"
           />
 
-          {/* Overlay on hover */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-
           {/* Badges */}
-          <div className="absolute top-2 left-2 flex flex-col gap-1">
+          <div className="absolute top-1.5 left-1.5 flex flex-col gap-0.5">
             {product.isFeatured && (
-              <span className="px-2 py-0.5 bg-gradient-to-r from-amber-400 to-orange-400 text-white text-[10px] font-bold rounded-md shadow">
+              <span className="px-1.5 py-0.5 bg-gradient-to-r from-amber-400 to-orange-400 text-white text-[9px] font-bold rounded">
                 HOT
               </span>
             )}
             {product.stock === 0 && (
-              <span className="px-2 py-0.5 bg-stone-800 text-white text-[10px] font-medium rounded-md">
+              <span className="px-1.5 py-0.5 bg-stone-800 text-white text-[9px] font-medium rounded">
                 Hết hàng
               </span>
             )}
           </div>
 
-          {/* Quick Actions */}
+          {/* Quick Actions - Desktop only */}
           {product.stock > 0 && (
-            <div className="absolute bottom-2 right-2 flex gap-1.5 opacity-0 group-hover:opacity-100 transition-all duration-300 translate-y-2 group-hover:translate-y-0">
+            <div className="absolute bottom-1.5 right-1.5 hidden md:flex gap-1 opacity-0 group-hover:opacity-100 transition-all">
               <button
                 onClick={(e) => { e.preventDefault(); onQuickView(); }}
-                className="w-9 h-9 rounded-lg bg-white shadow-lg flex items-center justify-center hover:bg-stone-50 transition-all hover:scale-110"
+                className="w-8 h-8 rounded-md bg-white shadow flex items-center justify-center hover:bg-stone-50"
                 title="Xem nhanh"
               >
-                <HiOutlineEye className="w-4 h-4 text-stone-700" />
+                <HiOutlineEye className="w-3.5 h-3.5 text-stone-700" />
               </button>
               <button
                 onClick={(e) => onQuickAdd(product, e)}
-                className="w-9 h-9 rounded-lg bg-rose-500 shadow-lg flex items-center justify-center hover:bg-rose-600 transition-all hover:scale-110"
+                className="w-8 h-8 rounded-md bg-rose-500 shadow flex items-center justify-center hover:bg-rose-600"
                 title="Thêm vào giỏ"
               >
-                <HiOutlineShoppingBag className="w-4 h-4 text-white" />
+                <HiOutlineShoppingBag className="w-3.5 h-3.5 text-white" />
               </button>
             </div>
           )}
@@ -881,10 +836,10 @@ function ProductCard({ product, index, getImageUrl, onQuickAdd, onQuickView, isF
 
         {/* Info */}
         <div>
-          <h3 className="text-sm font-medium text-stone-700 line-clamp-2 leading-snug mb-1 group-hover:text-rose-600 transition-colors">
+          <h3 className="text-xs lg:text-sm font-medium text-stone-700 line-clamp-2 leading-snug mb-0.5 group-hover:text-rose-600 transition-colors">
             {product.name}
           </h3>
-          <p className="text-base font-bold text-rose-500">
+          <p className="text-sm lg:text-base font-bold text-rose-500">
             {(product.price || 0).toLocaleString('vi-VN')}₫
           </p>
         </div>

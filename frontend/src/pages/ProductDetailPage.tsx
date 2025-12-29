@@ -98,13 +98,18 @@ export default function ProductDetailPage() {
     return (
       <div className="py-4 px-3 md:px-4">
         <div className="max-w-5xl mx-auto">
-          <div className="animate-pulse grid md:grid-cols-2 gap-4 md:gap-6">
-            <div className="aspect-square max-h-[350px] bg-neutral-200 rounded-xl" />
+          <div className="animate-pulse grid md:grid-cols-2 gap-3 md:gap-5">
+            <div className="max-w-[280px] md:max-w-[320px] mx-auto w-full">
+              <div className="aspect-square bg-neutral-200 rounded-lg" />
+              <div className="flex gap-1.5 mt-2 justify-center">
+                {[1,2,3].map(i => <div key={i} className="w-12 h-12 bg-neutral-200 rounded-md" />)}
+              </div>
+            </div>
             <div className="space-y-3">
               <div className="h-5 bg-neutral-200 rounded w-20" />
               <div className="h-6 bg-neutral-200 rounded w-3/4" />
-              <div className="h-8 bg-neutral-200 rounded w-1/3" />
-              <div className="h-16 bg-neutral-200 rounded" />
+              <div className="h-7 bg-neutral-200 rounded w-1/3" />
+              <div className="h-12 bg-neutral-200 rounded" />
               <div className="h-10 bg-neutral-200 rounded" />
             </div>
           </div>
@@ -167,43 +172,46 @@ export default function ProductDetailPage() {
           <span className="text-neutral-800 truncate max-w-[200px]">{product.name}</span>
         </nav>
 
-        <div className="grid md:grid-cols-2 gap-4 md:gap-6">
-          {/* Hình ảnh */}
+        <div className="grid md:grid-cols-2 gap-3 md:gap-5">
+          {/* Hình ảnh - compact để tránh mờ */}
           <div className="md:sticky md:top-4 self-start">
-            <div className="aspect-square max-h-[350px] md:max-h-[400px] rounded-xl overflow-hidden bg-neutral-100 mb-2">
-              {product.images && product.images.length > 0 ? (
-                <img
-                  src={getImageUrl(product.images[selectedImage] || product.images[0])}
-                  alt={product.name}
-                  className="w-full h-full object-contain bg-white"
-                />
-              ) : (
-                <div className="w-full h-full flex items-center justify-center text-neutral-400 text-sm">
-                  Không có hình ảnh
+            <div className="relative w-full max-w-[280px] md:max-w-[320px] mx-auto">
+              <div className="aspect-square rounded-lg overflow-hidden bg-neutral-100 shadow-sm">
+                {product.images && product.images.length > 0 ? (
+                  <img
+                    src={getImageUrl(product.images[selectedImage] || product.images[0])}
+                    alt={product.name}
+                    className="w-full h-full object-cover"
+                  />
+                ) : (
+                  <div className="w-full h-full flex items-center justify-center text-neutral-400 text-sm">
+                    Không có hình ảnh
+                  </div>
+                )}
+              </div>
+              {/* Thumbnails - dưới ảnh chính */}
+              {product.images && product.images.length > 1 && (
+                <div className="flex gap-1.5 mt-2 justify-center overflow-x-auto pb-1">
+                  {product.images.map((image, index) => (
+                    <button
+                      key={index}
+                      onClick={() => setSelectedImage(index)}
+                      className={`flex-shrink-0 w-12 h-12 rounded-md overflow-hidden border-2 transition-all ${
+                        selectedImage === index
+                          ? 'border-primary ring-1 ring-primary/20'
+                          : 'border-neutral-200 hover:border-neutral-300'
+                      }`}
+                    >
+                      <img
+                        src={getImageUrl(image)}
+                        alt=""
+                        className="w-full h-full object-cover"
+                      />
+                    </button>
+                  ))}
                 </div>
               )}
             </div>
-            {product.images && product.images.length > 1 && (
-              <div className="flex gap-1.5 overflow-x-auto pb-1">
-                {product.images.map((image, index) => (
-                  <button
-                    key={index}
-                    onClick={() => setSelectedImage(index)}
-                    className={`flex-shrink-0 w-14 h-14 rounded-lg overflow-hidden border-2 transition-all ${
-                      selectedImage === index
-                        ? 'border-primary ring-1 ring-primary/20'
-                        : 'border-transparent hover:border-neutral-300'
-                    }`}
-                  >
-                    <img
-                      src={getImageUrl(image)}
-                      alt=""
-                      className="w-full h-full object-cover"
-                    />
-                  </button>
-                ))}
-              </div>
-            )}
           </div>
 
           {/* Thông tin sản phẩm */}
