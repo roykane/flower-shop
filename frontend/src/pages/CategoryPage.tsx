@@ -155,7 +155,7 @@ export default function CategoryPage() {
               {' / '}
               <span>{category.name}</span>
             </nav>
-            <h1 className="font-heading text-4xl mb-2">{category.name}</h1>
+            <h1 className="font-heading text-4xl mb-2 text-white">{category.name}</h1>
             <p className="text-white/80 max-w-lg">{category.description}</p>
           </div>
         </div>

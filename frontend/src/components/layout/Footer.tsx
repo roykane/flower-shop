@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { HiOutlinePhone, HiOutlineLocationMarker } from 'react-icons/hi';
 import { FaFacebookF } from 'react-icons/fa';
 import { SiZalo } from 'react-icons/si';
-import logoMA from '@/assets/logo/logo-ma.png';
+import logoMA from '@/assets/logo/logo.png';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();

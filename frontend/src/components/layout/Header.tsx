@@ -11,7 +11,7 @@ import {
   HiX
 } from 'react-icons/hi';
 import { useAuthStore, useCartStore, useFavoritesStore } from '@/store/useStore';
-import logoMA from '@/assets/logo/logo-ma.png';
+import logoMA from '@/assets/logo/logo.png';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
