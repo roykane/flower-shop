@@ -676,7 +676,7 @@ async function seedBlogs() {
       console.log('No admin user found, creating a default author...');
       adminUser = await User.create({
         name: 'Admin',
-        email: 'admin@minhanh.store',
+        email: 'admin@hoaminhanh.com',
         password: 'admin123',
         role: 'admin',
       });

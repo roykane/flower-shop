@@ -13,8 +13,8 @@ import {
 } from 'react-icons/hi';
 import toast from 'react-hot-toast';
 import { useCartStore, useAuthStore } from '@/store/useStore';
-import { ordersAPI } from '@/utils/api';
-import { getImageUrl, API_URL } from '@/utils/helpers';
+import { ordersAPI, uploadAPI } from '@/utils/api';
+import { getImageUrl } from '@/utils/helpers';
 // import CouponInput, { AppliedCoupon } from '@/components/CouponInput';
 
 // Thông tin ngân hàng cho chuyển khoản
@@ -231,29 +231,20 @@ export default function CheckoutPage() {
 
     setIsUploading(true);
     try {
-      const formData = new FormData();
-      formData.append('image', paymentProofFile);
-      formData.append('orderCode', orderId);
+      const response = await uploadAPI.uploadPaymentProof(orderId, paymentProofFile);
 
-      const response = await fetch(`${API_URL}/upload/payment-proof`, {
-        method: 'POST',
-        body: formData,
-      });
-
-      const data = await response.json();
-
-      if (data.success) {
+      if (response.data.success) {
         setUploadSuccess(true);
         toast.success('Gửi xác nhận thành công! Shop sẽ kiểm tra trong ít phút.', {
           duration: 5000,
           icon: '✅',
         });
       } else {
-        throw new Error(data.message || 'Lỗi upload');
+        throw new Error(response.data.message || 'Lỗi upload');
       }
     } catch (error: any) {
       console.error('Upload error:', error);
-      toast.error(error.message || 'Lỗi khi gửi xác nhận. Vui lòng thử lại.');
+      toast.error(error.response?.data?.message || error.message || 'Lỗi khi gửi xác nhận. Vui lòng thử lại.');
     } finally {
       setIsUploading(false);
     }
@@ -262,10 +253,9 @@ export default function CheckoutPage() {
   // Check payment status from bank
   const checkPaymentStatus = async (): Promise<boolean> => {
     try {
-      const response = await fetch(`${API_URL}/api/orders/check-payment/${orderId}`);
-      const data = await response.json();
+      const response = await ordersAPI.checkPayment(orderId);
 
-      if (data.success && data.data.isPaid) {
+      if (response.data.success && response.data.data.isPaid) {
         return true;
       }
       return false;

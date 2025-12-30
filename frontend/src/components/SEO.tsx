@@ -17,7 +17,7 @@ interface SEOProps {
   };
 }
 
-const BASE_URL = 'https://minhanh.store';
+const BASE_URL = 'https://hoaminhanh.com';
 const DEFAULT_IMAGE = `${BASE_URL}/og-image.jpg`;
 const SITE_NAME = 'MINH ANH - Mâm Quả & Hoa Cưới';
 

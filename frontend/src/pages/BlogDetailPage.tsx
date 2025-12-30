@@ -10,8 +10,8 @@ import {
 } from 'react-icons/hi';
 import { PiFlowerLotus, PiFlowerTulip } from 'react-icons/pi';
 import SEO from '@/components/SEO';
-import { getImageUrl, API_URL } from '@/utils/helpers';
-import axios from 'axios';
+import { getImageUrl } from '@/utils/helpers';
+import { blogsAPI } from '@/utils/api';
 import toast from 'react-hot-toast';
 
 interface Blog {
@@ -92,10 +92,7 @@ export default function BlogDetailPage() {
 
       setIsLoading(true);
       try {
-        const response = await axios.get<{
-          success: boolean;
-          data: { blog: Blog; related: RelatedBlog[] };
-        }>(`${API_URL}/api/blogs/${slug}`);
+        const response = await blogsAPI.getBySlug(slug);
 
         if (response.data.success) {
           setBlog(response.data.data.blog);

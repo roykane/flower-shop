@@ -1,5 +1,5 @@
-# robots.txt for minhanh.store
-# https://minhanh.store
+# robots.txt for hoaminhanh.com
+# https://hoaminhanh.com
 
 User-agent: *
 Allow: /
@@ -22,7 +22,7 @@ Allow: /about
 Allow: /contact
 
 # Sitemap location
-Sitemap: https://minhanh.store/sitemap.xml
+Sitemap: https://hoaminhanh.com/sitemap.xml
 
 # Crawl-delay for politeness
 Crawl-delay: 1

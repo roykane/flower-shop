@@ -99,6 +99,7 @@ export const ordersAPI = {
   getById: (id: string) => api.get(`/orders/${id}`),
   create: (data: any) => api.post('/orders', data),
   cancel: (id: string) => api.put(`/orders/${id}/cancel`),
+  checkPayment: (orderId: string) => api.get(`/orders/check-payment/${orderId}`),
   // Guest checkout (no login required)
   createGuest: (data: any) => api.post('/orders/guest', data),
   lookupGuest: (orderId: string, phone: string) =>

@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { HiOutlineCalendar, HiOutlineEye, HiOutlineTag, HiOutlineSearch } from 'react-icons/hi';
 import SEO from '@/components/SEO';
-import { getImageUrl, API_URL } from '@/utils/helpers';
-import axios from 'axios';
+import { getImageUrl } from '@/utils/helpers';
+import { blogsAPI } from '@/utils/api';
 
 interface Blog {
   _id: string;
@@ -18,18 +18,6 @@ interface Blog {
   author?: {
     name: string;
   };
-}
-
-interface BlogsResponse {
-  success: boolean;
-  data: Blog[];
-  pagination: {
-    page: number;
-    limit: number;
-    total: number;
-    pages: number;
-  };
-  categories: Record<string, string>;
 }
 
 const CATEGORY_LABELS: Record<string, string> = {
@@ -61,13 +49,14 @@ export default function BlogPage() {
     const fetchBlogs = async () => {
       setIsLoading(true);
       try {
-        const params = new URLSearchParams();
-        params.append('page', currentPage.toString());
-        params.append('limit', '9');
-        if (selectedCategory) params.append('category', selectedCategory);
-        if (searchQuery) params.append('search', searchQuery);
+        const params: Record<string, any> = {
+          page: currentPage,
+          limit: 9,
+        };
+        if (selectedCategory) params.category = selectedCategory;
+        if (searchQuery) params.search = searchQuery;
 
-        const response = await axios.get<BlogsResponse>(`${API_URL}/api/blogs?${params}`);
+        const response = await blogsAPI.getAll(params);
         if (response.data.success) {
           setBlogs(response.data.data);
           setTotalPages(response.data.pagination.pages);
@@ -85,9 +74,7 @@ export default function BlogPage() {
   useEffect(() => {
     const fetchFeatured = async () => {
       try {
-        const response = await axios.get<{ success: boolean; data: Blog[] }>(
-          `${API_URL}/api/blogs/featured?limit=3`
-        );
+        const response = await blogsAPI.getFeatured(3);
         if (response.data.success) {
           setFeaturedBlogs(response.data.data);
         }
